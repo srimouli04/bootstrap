@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>Hello World!</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <h1>Abbreviations</h1>
+  <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+  <h1>Blockquotes</h1>
+<p>The blockquote element is used to present content from another source:</p>
+<blockquote>
+  <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+  <footer>From WWF's website</footer>
+</blockquote>
+
+
+<div class="container">
+  <h1>Description Lists</h1>
+  <p>The dl element indicates a description list:</p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>
+
+  <h2>Contextual Colors</h2>
+  <p>Use the contextual classes to provide "meaning through colors":</p>
+  <p class="text-muted">This text is muted.</p>
+  <p class="text-primary">This text is important.</p>
+  <p class="text-success">This text indicates success.</p>
+  <p class="text-info">This text represents some information.</p>
+  <p class="text-warning">This text represents a warning.</p>
+  <p class="text-danger">This text represents danger.</p>
+
+  <h2>Contextual Backgrounds</h2>
+<p>Use the contextual background classes to provide "meaning through colors":</p>
+<p class="bg-primary">This text is important.</p>
+<p class="bg-success">This text indicates success.</p>
+<p class="bg-info">This text represents some information.</p>
+<p class="bg-warning">This text represents a warning.</p>
+<p class="bg-danger">This text represents danger.</p>
+
+<h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Contextual Classes</h2>
+ <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+ <table class="table">
+   <thead>
+     <tr>
+       <th>Firstname</th>
+       <th>Lastname</th>
+       <th>Email</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Default</td>
+       <td>Defaultson</td>
+       <td>def@somemail.com</td>
+     </tr>
+     <tr class="success">
+       <td>Success</td>
+       <td>Doe</td>
+       <td>john@example.com</td>
+     </tr>
+     <tr class="danger">
+       <td>Danger</td>
+       <td>Moe</td>
+       <td>mary@example.com</td>
+     </tr>
+     <tr class="info">
+       <td>Info</td>
+       <td>Dooley</td>
+       <td>july@example.com</td>
+     </tr>
+     <tr class="warning">
+       <td>Warning</td>
+       <td>Refs</td>
+       <td>bo@example.com</td>
+     </tr>
+     <tr class="active">
+       <td>Active</td>
+       <td>Activeson</td>
+       <td>act@example.com</td>
+     </tr>
+   </tbody>
+ </table>
+
+ <h2>Table</h2>
+  <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>
+  <div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+        <td>Pitt</td>
+        <td>35</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Rounded Corners</h2>
+  <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>
+  <img src="20150606_212012.jpg" class="satti" alt="Arena" width="304" height="236">
+
+  <h2>Image</h2>
+<p>The .img-responsive class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
+<img class="img-responsive" src="Screen Shot 2018-02-08 at 6.51.41 PM.png" alt="Chania" width="460" height="345">
+</div>
+<h2>Responsive Embed</h2>
+ <p>Create a responsive video and scale it nicely to the parent element with an 16:9 aspect ratio</p>
+ <div class="embed-responsive embed-responsive-16by9">
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+ </div>
+
+ <div class="container">
+  <div class="jumbotron">
+    <h1>Bootstrap Tutorial</h1>
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div>
+  <p>This is some text.</p>
+  <p>This is another text.</p>
+</div>
+<h2>Alerts</h2>
+ <div class="alert alert-success">
+   <strong>Success!</strong> This alert box could indicate a successful or positive action.
+ </div>
+ <div class="alert alert-info">
+   <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+ </div>
+ <div class="alert alert-warning">
+   <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+ </div>
+ <div class="alert alert-danger">
+   <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+
+   <h2>Alerts</h2>
+<p>The a element with class="close" and data-dismiss="alert" is used to close the alert box.</p>
+<p>The alert-dismissible class adds some extra padding to the close button.</p>
+<div class="alert alert-success alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <strong>Success!</strong> This alert box could indicate a successful or positive action.
+</div>
+<div class="alert alert-info alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+</div>
+<div class="alert alert-warning alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+</div>
+<div class="alert alert-danger alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+</div>
+</div>
+<h2>Button Tags</h2>
+ <a href="#" class="btn btn-info" role="button">Link Button</a>
+ <button type="button" class="btn btn-info">Button</button>
+ <input type="button" class="btn btn-info" value="Input Button">
+ <input type="submit" class="btn btn-info" value="Submit Button">
+
+ <h2>Button States</h2>
+ <button type="button" class="btn btn-primary">Primary Button</button>
+ <button type="button" class="btn btn-primary active">Active Primary</button>
+ <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+
+ <p>toggle down button </p>
+ <div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Sony <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Tablet</a></li>
+      <li><a href="#">Smartphone</a></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
